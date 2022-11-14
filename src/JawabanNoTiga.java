@@ -39,22 +39,22 @@ public class JawabanNoTiga {
         System.out.println("|| Bus Top Level = " +busTopLevel+ " || Bus Middle Level = " +busMiddleLevel+ " || Bus Regular Staff = " + busRegularStaff+ " || Bus Staff = " +busStaff + " ||");
     }
 
-    public static void pilihBus(String nik, char codeNik) {
+    public static void pilihBus(String NIK, char codeNik) {
         switch(codeNik) {
             case 'C' :
-                System.out.println("Karyawan " + nik + " masuk ke Bus 01-TopLevel");
+                System.out.println("Karyawan " + NIK + " masuk ke Bus 01-TopLevel");
                 break;
             case 'J' :
-                System.out.println("Karyawan " + nik + " masuk ke Bus 02-MiddleLevel");
+                System.out.println("Karyawan " + NIK + " masuk ke Bus 02-MiddleLevel");
                 break;
             case 'N' :
-                System.out.println("Karyawan " + nik + " masuk ke Bus 03-RegularStaff");
+                System.out.println("Karyawan " + NIK + " masuk ke Bus 03-RegularStaff");
                 break;
             case 'P' :
-                System.out.println("Karyawan " + nik + " masuk ke Bus 04-Staff");
+                System.out.println("Karyawan " + NIK + " masuk ke Bus 04-Staff");
                 break;
             default:
-                System.out.println("NIK " + nik + " tidak valid ");
+                System.out.println("NIK " + NIK + " tidak valid ");
 
 
         }
